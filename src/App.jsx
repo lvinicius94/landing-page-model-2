@@ -60,26 +60,26 @@ function App() {
                 <div className='card-one'>
                       <img src="/gates-of-olympus-rodadas-gratis.png" alt="" />        
                       <h3>Rodadas grátis</h3>
-                      <p>(Um ótimo bônus de primeiro depósito sem rollover de até 200 rodadas grátis)</p>                    
+                      <p>(Ganhe até 200 rodadas grátis)</p>                    
                 </div>
                 <div className='card-one'>
                       <img src="/indique-e-ganhe.jpeg" alt="" />
                       <h3>Indique e ganhe</h3>
-                      <p>(Ganhe R$ 30 de saldo REAL para cada amigo cadastrado com seu link)</p>  
+                      <p>(Ganhe R$ 30 de saldo REAL)</p>  
                 </div>
                 <div className='card-one'>
                       <img src="/cashback-20.png" alt="" />
                       <h3>Cashbacks</h3>
-                      <p>(Múltiplas promoções de cashbacks em cassino ao vivo, slots e crash games)</p>  
+                      <p>(Ganhe até 20% de retorno)</p>  
                 </div>
                 <div className='card-one'>
                       <img src="/sorteio-telegram.jpeg" alt="" />
                       <h3>Saque rápido PIX</h3>
-                      <p>(O saque sai rapidinho, e conte com nosso suporte 24h para qualquer problema)</p>  
+                      <p>(Sorteios exclusivos)</p>  
                 </div>
                 <div className='card-one-icon'>
                       <img src="/beneficio-pix.png" alt="" />
-                      <h3>pagamentos em pix</h3>                       
+                      <h3>receba pagamentos em pix</h3>                       
                 </div>
                 <div className='card-one-icon'>
                       <img src="/beneficio-atendimento.png" alt="" />

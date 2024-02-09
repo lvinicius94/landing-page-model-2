@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import PromoCode from './PromoCode'
 
 function App() {
 
@@ -39,7 +40,9 @@ function App() {
                   </div>
                   <div className='config-botao-banner'>
                       <button className='botao-cadastrar-banner'>RESGATE SUA FREEBET</button>
-                     <p className='texto-oferta2'>Com o promocode: ESTADUAIS</p>
+                      <PromoCode />
+                     <p>promocode: ESTADUAIS</p>
+                     
                      <h2 className='subtitulo-h2'>ENTRE NO SITE DA UP</h2>
                      <p>(Abra uma conta, se já não tiver uma)</p>
 

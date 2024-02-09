@@ -1,0 +1,18 @@
+.botao-codigo-promocional{
+    padding: 10PX 20px;
+    border-radius: 5px;
+    background: #000;
+    color: #13C9B8;
+    font-weight: bolder;
+    border: none;
+    margin: 10px 0;
+}
+
+.codigoCopiado{
+    position: absolute;
+    display: flex;
+}
+
+.botao-codigo-promocional:hover{
+    cursor: pointer;
+}

@@ -28,7 +28,7 @@ function App() {
 
   return (
       <div className='div-principal-lp'>
-        <img className='imagem-fundo-principal' src="/fundo-freebet.png" alt="Imagem de um estádio de futebol representando a freebet" />
+        
         <div className='menu-principal'><img src="/logo-principal-upbet.png" alt="" /><button className='botao-cadastrar-menu'>CADASTRE-SE</button></div>
         <div className='banner-imagem-texto'>
               <div className='conteudo-banner'>

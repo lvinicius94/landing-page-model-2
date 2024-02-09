@@ -1,0 +1,354 @@
+
+
+
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+
+.div-principal-lp{
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  justify-content: flex-start;
+  /* background: linear-gradient(#000, #00635A); */
+}
+
+.div-principal-lp img{
+  display: flex;
+  max-height: 100%;
+}
+
+.imagem-fundo-principal{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  display: flex;
+}
+
+
+
+.menu-principal{
+  display: flex;
+  flex-wrap: wrap;
+  background: #2E3738;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-principal img{
+  height: 30%;
+}
+
+.botao-cadastrar-menu{
+  background: #13C9B8;
+  color: #000;
+  display: flex;
+  align-items: center;
+  font-family: var(--fonte-principal);
+  height: 50px;
+}
+
+.banner-imagem-texto{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  font-family: var(--fonte-principal);
+  margin: 0 auto;
+
+}
+
+.conteudo-banner{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 50%;
+}
+
+.conteudo-banner h1{
+  display: flex;
+  margin-left: 70px;
+  font-size: 2.1em;
+  font-weight: 700;
+  text-align: left;
+  color: #fff;
+}
+
+.conteudo-banner h2{
+  display: flex;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  margin-left: 70px;
+  font-size: 2.1em;
+  font-weight: 700;
+  text-align: left;
+}
+
+.conteudo-topo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.conteudo-banner p{
+  display: flex;
+  color: #fff;
+  font-size: 0.7em;
+  margin-left: 70px;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+}
+
+.config-botao-banner{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.botao-cadastrar-banner{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  margin: 20px 30px;
+  height: 60px;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.conteudo-banner .texto-oferta{
+  padding: 0 20%;
+  margin: 30px 0;
+}
+
+.conteudo-banner .texto-oferta2{
+  padding: 0 20%;
+  margin-bottom: 40px;
+}
+
+
+
+.icone-botao-menu{
+  display: flex;
+  width: 40px;
+  
+}
+
+
+.imagem-banner-direita{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.imagem-banner-direita img{
+  display: flex;
+  width: 80%;
+  max-width: 380px;
+
+
+}
+
+.div-segunda-dobra{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e7e7e7;
+  width: 100%;
+  padding: 0 0 50px 0;
+}
+
+.div-segunda-dobra h2{
+  display: flex;
+  justify-content: center;
+  font-family: var(--fonte-principal);
+  font-size: 2em;
+  padding: 0 20%;
+  color: #000;
+  width: 100%;
+}
+
+
+.primeira-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card-one{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.card-one-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 45%;
+    height: 150px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background: #fff;
+    align-content: space-between;
+    align-items: flex-end;
+}
+
+.card-one-icon h3{
+  display: flex;
+  position: absolute;
+  color: #333;
+  font-size: 1em;
+  font-family: var(--fonte-principal);
+  padding: 10px 10%;
+  margin: 0;
+}
+
+.card-one-icon img{
+  display: flex;
+  width: 50%;
+  border-radius: 15px;
+  height: 50%;
+}
+
+.card-one h3{
+  display: flex;
+  color: #333;
+  font-family: var(--fonte-principal);
+  
+}
+
+.card-one p{
+  display: flex;
+  color: #777;
+  font-size: 14px;
+  font-family: var(--fonte-principal);
+}
+
+.card-one img{
+  width: 100%;
+  max-height: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  
+}
+
+.botao-fixo-segunda-dobra{
+  justify-content: center;
+  position: sticky;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  margin: 0 10%;
+  bottom: 30px;
+  color: #000;
+  background: #13C9B8;
+  font-family: var(--fonte-principal);
+  border-radius: 15px;
+}
+
+
+@media (max-width: 900px) {
+
+  .imagem-banner-direita{
+    width: 80%;
+    position: absolute;
+    opacity: 0.8;
+    justify-content: center;
+    top: 25%;
+    z-index: 5;
+  }
+
+
+  .banner-imagem-texto{
+    width: 90%;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .conteudo-banner{
+    width: 100%;
+    text-align: center;
+    align-content: space-between;
+    height: 90vh;
+    margin-top: 80px;
+
+  }
+
+  .conteudo-banner h1{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 10% 0 10%;
+    z-index: 1;
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;    
+  }
+
+  .conteudo-banner h2{
+    width: 100%;
+    margin: 0;
+    padding: 0 10%;
+    z-index: 1;
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .conteudo-banner .subtitulo-h2{
+    color: #13C9B8;
+    font-size: 16px;
+  }
+
+  .conteudo-banner p{
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+    padding: 0 30%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .config-botao-banner{
+    justify-content: center;
+
+  }
+
+  .botao-cadastrar-banner{
+    width: 100%;
+    z-index: 1;
+    margin: 10px auto;
+    font-size: 20px;
+  }
+
+
+
+}

@@ -30,7 +30,7 @@ function App() {
   return (
       <div className='div-principal-lp'>
         
-        <div className='menu-principal'><img src="/logo-principal-upbet.png" alt="" /><button className='botao-cadastrar-menu'>CADASTRE-SE</button></div>
+        <div className='menu-principal'><img src="/logo-principal-upbet.png" alt="" /><button className='botao-cadastrar-menu'><a rel='nofollow' href="https://upbet.com/ptb/authentication/signup">CADASTRE-SE</a></button></div>
         <div className='banner-imagem-texto'>
               <div className='conteudo-banner'>
                   <div className='conteudo-topo'>
@@ -39,7 +39,7 @@ function App() {
                   <img src="/vinte-reais-bonus-img.png" alt="" />
                   </div>
                   <div className='config-botao-banner'>
-                      <button className='botao-cadastrar-banner'>RESGATE SUA FREEBET</button>
+                      <button className='botao-cadastrar-banner'><a rel='nofollow' href="https://upbet.com/ptb/authentication/signup">RESGATE SUA FREEBET</a></button>
                       <PromoCode />
                      <p>promocode: ESTADUAIS</p>
                      
@@ -77,7 +77,7 @@ function App() {
                 </div>
                 <div className='card-one'>
                       <img src="/sorteio-telegram.jpeg" alt="" />
-                      <h3>Saque rápido PIX</h3>
+                      <h3>Grupo Telegram</h3>
                       <p>(Sorteios exclusivos)</p>  
                 </div>
                 <div className='card-one-icon'>
@@ -86,21 +86,21 @@ function App() {
                 </div>
                 <div className='card-one-icon'>
                       <img src="/beneficio-atendimento.png" alt="" />
-                      <h3>suporte ao jogador 24/7</h3>                       
+                      <h3>suporte ao jogador 24 horas</h3>                       
                 </div>
                 <div className='card-one-icon'>
                       <img src="/beneficio-seguranca.png" alt="" />
                       <h3>registro e verificações</h3>                       
                 </div>
                 <div className='card-one-icon'>
-                      <img src="/beneficio-telegram.png" alt="" />
-                      <h3>800.000 eventosao vivo por ano</h3>                       
+                      <img src="/melhores-odds.png" alt="" />
+                      <h3>Melhores Odds</h3>                       
                 </div>
             </div>
            
             {/* Render the button only if showButton is true */}
             {showButton && (
-              <button onClick={scrollToTop} className='botao-fixo-segunda-dobra'>RESGATE SUA FREEBET</button>  
+              <button onClick={scrollToTop} className='botao-fixo-segunda-dobra'><a rel='nofollow' href="https://upbet.com/ptb/authentication/signup">RESGATE SUA FREEBET</a></button>  
             )}
        
               

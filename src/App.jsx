@@ -58,17 +58,17 @@ function App() {
             <h2>O que a UPBET oferece?</h2>
             <div className='primeira-grid'>
                 <div className='card-one'>
-                      <img src="/image-card-game.png" alt="" />        
+                      <img src="/gates-of-olympus-rodadas-gratis.png" alt="" />        
                       <h3>Rodadas grátis</h3>
                       <p>(Um ótimo bônus de primeiro depósito sem rollover de até 200 rodadas grátis)</p>                    
                 </div>
                 <div className='card-one'>
-                      <img src="/image-card-game.png" alt="" />
+                      <img src="/indique-e-ganhe.jpeg" alt="" />
                       <h3>Indique e ganhe</h3>
                       <p>(Ganhe R$ 30 de saldo REAL para cada amigo cadastrado com seu link)</p>  
                 </div>
                 <div className='card-one'>
-                      <img src="/image-card-game.png" alt="" />
+                      <img src="/cashback-20.png" alt="" />
                       <h3>Cashbacks</h3>
                       <p>(Múltiplas promoções de cashbacks em cassino ao vivo, slots e crash games)</p>  
                 </div>

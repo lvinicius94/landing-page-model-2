@@ -72,7 +72,7 @@ function App() {
                 </div>
                 <div className='card-one'>
                       <img src="/cashback-20.png" alt="" />
-                      <h3>Cashbacks</h3>
+                      <h3>Receba Cashbacks</h3>
                       <p>(Ganhe até 20% de retorno)</p>  
                 </div>
                 <div className='card-one'>

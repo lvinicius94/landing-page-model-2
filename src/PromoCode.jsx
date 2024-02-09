@@ -17,7 +17,7 @@ function PromoCode() {
   return (
     <div>
       <button className='botao-codigo-promocional' onClick={handleCopyClick}>
-        {copied ? 'COPIADO!' : 'COPIAR PROMOCODE'}
+        {copied ? 'CÓDIGO COPIADO!' : 'COPIAR PROMOCODE'}
       </button>
     </div>
   );

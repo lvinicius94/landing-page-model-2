@@ -233,9 +233,9 @@
 
 .card-one-icon img{
   display: flex;
-  width: 50%;
   border-radius: 15px;
-  height: 50%;
+  height: 35%;
+  padding: 20px;
 }
 
 .card-one h3{
@@ -353,9 +353,9 @@
     width: 100%;
     margin: 0 auto;
     z-index: 1;
-    padding: 0 30%;
-    font-size: 14px;
-    margin-bottom: 20px;
+    padding: 0 10%;
+    font-size: 12px;
+    margin-bottom: 30px;
     justify-content: center;
     text-align: center;
   }

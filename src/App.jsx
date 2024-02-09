@@ -33,13 +33,13 @@ function App() {
         <div className='banner-imagem-texto'>
               <div className='conteudo-banner'>
                   <div className='conteudo-topo'>
-                  <h1>GANHE UM BÔNUS DE BOAS-VINDAS EM SEU DEPÓSITO</h1>
+                  <h1>Receba uma aposta grátis para as finais dos campeonatos estaduais!</h1>
                   <p className='texto-oferta'>Dê um UP na sua aposta como milhares de jogadores</p>
                   <img src="/vinte-reais-bonus-img.png" alt="" />
                   </div>
                   <div className='config-botao-banner'>
                       <button className='botao-cadastrar-banner'>RESGATE SUA FREEBET</button>
-                     <p className='texto-oferta2'>*oferta disponível para todos!</p>
+                     <p className='texto-oferta2'>Com o promocode: ESTADUAIS</p>
                      <h2 className='subtitulo-h2'>ENTRE NO SITE DA UP</h2>
                      <p>(Abra uma conta, se já não tiver uma)</p>
 
@@ -73,24 +73,24 @@ function App() {
                       <p>(Múltiplas promoções de cashbacks em cassino ao vivo, slots e crash games)</p>  
                 </div>
                 <div className='card-one'>
-                      <img src="/image-card-game.png" alt="" />
+                      <img src="/sorteio-telegram.jpeg" alt="" />
                       <h3>Saque rápido PIX</h3>
                       <p>(O saque sai rapidinho, e conte com nosso suporte 24h para qualquer problema)</p>  
                 </div>
                 <div className='card-one-icon'>
-                      <img src="/image-card-game.png" alt="" />
+                      <img src="/beneficio-pix.png" alt="" />
                       <h3>pagamentos em pix</h3>                       
                 </div>
                 <div className='card-one-icon'>
-                      <img src="/image-card-game.png" alt="" />
+                      <img src="/beneficio-atendimento.png" alt="" />
                       <h3>suporte ao jogador 24/7</h3>                       
                 </div>
                 <div className='card-one-icon'>
-                      <img src="/image-card-game.png" alt="" />
-                      <h3>regustri e verificações</h3>                       
+                      <img src="/beneficio-seguranca.png" alt="" />
+                      <h3>registro e verificações</h3>                       
                 </div>
                 <div className='card-one-icon'>
-                      <img src="/image-card-game.png" alt="" />
+                      <img src="/beneficio-telegram.png" alt="" />
                       <h3>800.000 eventosao vivo por ano</h3>                       
                 </div>
             </div>
